@@ -6,10 +6,11 @@ public static class DataPagerExtension
 {
     public static CurrencyResponse Paginate(this List<Currency> currencies, int page, int pageSize)
     {
-        page = (page <= 0) ? 1 : page;
-
-        var startPage = (page - 1) * pageSize;
         var totalItems = currencies.Count;
+        page = (page <= 0) ? 1 : page;
+        pageSize = pageSize <= 0 ? totalItems : pageSize;
+        
+        var startPage = (page - 1) * pageSize;
         
         var items = currencies
             .Skip(startPage)
