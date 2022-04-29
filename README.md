@@ -14,17 +14,8 @@ Running project in development mode allows you to test API methods in [Swagger](
 {
   "currentPage": 2,
   "totalItems": 34,
-  "totalPages": 17,
+  "totalPages": 12,
   "items": [
-    {
-      "id": "R01035",
-      "numCode": "826",
-      "charCode": "GBP",
-      "nominal": 1,
-      "name": "Фунт стерлингов Соединенного королевства",
-      "value": 90.3908,
-      "previous": 91.9773
-    },
     {
       "id": "R01060",
       "numCode": "051",
@@ -33,6 +24,24 @@ Running project in development mode allows you to test API methods in [Swagger](
       "name": "Армянских драмов",
       "value": 15.831,
       "previous": 15.8434
+    },
+    {
+      "id": "R01090B",
+      "numCode": "933",
+      "charCode": "BYN",
+      "nominal": 1,
+      "name": "Белорусский рубль",
+      "value": 27.2463,
+      "previous": 27.3611
+    },
+    {
+      "id": "R01100",
+      "numCode": "975",
+      "charCode": "BGN",
+      "nominal": 1,
+      "name": "Болгарский лев",
+      "value": 39.1187,
+      "previous": 39.7732
     }
   ]
 }
